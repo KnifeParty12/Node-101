@@ -2,6 +2,6 @@ function awesomefunc() {
     console.log('OMG! This is awesome !')
 }
 
-module.exports = {
+module.exports = {  //Module is a global object
     awesomefunc
 };
