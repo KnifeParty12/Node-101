@@ -1,0 +1,15 @@
+{
+  "name": "express_server_rendering",
+  "version": "1.0.0",
+  "description": "Using Express & handlebars for serverside rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikhil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hbs": "^4.0.3"
+  }
+}
