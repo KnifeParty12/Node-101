@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>persons</title>
+</head>
+<body>
+
+<a href="/add">Add Person </a>
+<br><br>
+
+<table border="1" cellpadding="10" cellspacing="10">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        {{#each persons as |person|}}
+        <tr>
+           <td> {{person.name}} </td>
+           <td> {{person.age}}  </td>
+           <td> {{person.city}} </td>
+        </tr>
+        {{/each}}
+</table>
+
+</body>
+</html>
